@@ -36,6 +36,7 @@ public class Main {
         devCamila.progredir();
         devCamila.progredir();
         System.out.println("===Após progredir===");
+        System.out.println("Conteudos Incritos Camila" + devCamila.getConteudosIncritos());
         System.out.println("Conteudos Concluidos Camila" + devCamila.getConteudosConcluidos());
         System.out.println("XP da Camila : " + devCamila.calcularTotalXp());
 
@@ -47,9 +48,8 @@ public class Main {
         System.out.println("Conteudos Incritos Joao" + devJoao.getConteudosIncritos());
         devJoao.progredir();
         devJoao.progredir();
-        devJoao.progredir();
         System.out.println("===Após progredir===");
-
+        System.out.println("Conteudos Incritos Joao" + devJoao.getConteudosIncritos());
         System.out.println("Conteudos Concluidos Joao" + devCamila.getConteudosConcluidos());
         System.out.println("XP Joao: " + devCamila.calcularTotalXp());
 
